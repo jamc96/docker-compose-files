@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  tourdesk:
+    container_name: tourdesk
+    image: ortussolutions/commandbox:lucee5
+    environment:
+      - cfconfig_adminpassword=sandals01
+    ports:
+      - 8080:8080
+    volumes:
+      - ./:/app
