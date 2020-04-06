@@ -1,0 +1,35 @@
+{
+    "name":"",
+    "openBrowser":true,
+    "debug":true,
+    "jvm":{
+        "heapSize":1024,
+        "minHeapSize":512
+    },
+    "web":{
+        "host":"localhosts",
+        "directoryBrowsing":true,
+        "accessLogEnable":true,
+        "maxRequests":30,
+        "welcomeFiles":"index.cfm,main.cfm,go.cfm",
+        "HTTP":{
+            "enable":true,
+            "port":8080
+        },
+        "SSL":{
+            "enable":false,
+            "port":443,
+            "certFile":"",
+            "keyFile":"",
+            "keyPass":""
+        },
+        "rewrites":{
+            "enable":true
+        }
+    },
+    "app":{
+        "cfengine":"lucee@5",
+        "sessionCookieSecure":true,
+        "sessionCookieHTTPOnly":true
+    }
+}

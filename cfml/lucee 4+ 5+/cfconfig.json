@@ -1,0 +1,14 @@
+{
+    "adminPassword": "admin1234",
+    "datasources": {
+        "oracle":{
+            "dbdriver":"Oracle",
+            "database":"",
+            "host":"Server",
+            "username":"User name",
+            "password":"Password",
+            "port":"1521",
+            "validate":"false"
+        }
+    }
+}

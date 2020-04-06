@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  myApp:
+    container_name: myApp
+    build: 
+      context: .
+    environment:
+      - cfconfigfile=/app/cfconfig.json
+    ports:
+      - 8080:8080
+    volumes:
+      - ./:/app
