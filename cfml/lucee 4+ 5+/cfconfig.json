@@ -1,6 +1,6 @@
 {
     "adminPassword": "admin1234",
-    "blockCFAdmin": "false"
+    "blockCFAdmin": "false",
     "datasources": {
         "oracle":{
             "dbdriver":"Oracle",
